@@ -18,12 +18,12 @@ namespace Snakes_on_a_Game
     {
         GraphicsDeviceManager graphics;
         SpriteBatch spriteBatch;
-        Texture2D snakeTexture;
+        Texture2D snakeTexture, foodTexture;
         Random rand = new Random();
         Texture2D squareTexture;
         Rectangle currentSquare;
-        
         List<Vector2> snake = new List<Vector2>();
+        Vector2 food;
         float timeRemaining = 0.0f;
         float timeTotal = 0.3f;
         float TimePerSquare = 2.00f;
@@ -48,6 +48,12 @@ namespace Snakes_on_a_Game
             snake.Add(new Vector2(400, 263));
             snake.Add(new Vector2(400, 284));
 
+            Random rand = new Random();
+            int randx = rand.Next(this.Window.ClientBounds.Left, this.Window.ClientBounds.Right);
+            int randy = rand.Next(this.Window.ClientBounds.Top, this.Window.ClientBounds.Bottom);
+
+            food = new Vector2(randx, randy);
+
             base.Initialize();
         }
 
@@ -61,6 +67,7 @@ namespace Snakes_on_a_Game
             spriteBatch = new SpriteBatch(GraphicsDevice);
             snakeTexture = Content.Load<Texture2D>(@"SQUARE");
             squareTexture = Content.Load<Texture2D>(@"SQUARE");
+            foodTexture = Content.Load<Texture2D>(@"SQUARE");
             // TODO: use this.Content to load your game content here
         }
 
@@ -105,11 +112,10 @@ namespace Snakes_on_a_Game
                 if (direction == 3)
                     snake[0] = new Vector2((snake[0].X -21),(snake[0].Y));
 
-                timeRemaining = timeTotal;
+                //timeRemaining = timeTotal;
             }
-            timeRemaining = MathHelper.Max(0, timeRemaining -
-           (float)gameTime.ElapsedGameTime.TotalSeconds);
-            Window.Title = "Time " + timeRemaining; 
+            /*timeRemaining = MathHelper.Max(0, timeRemaining -
+           (float)gameTime.ElapsedGameTime.TotalSeconds); 
             base.Update(gameTime);
 
             if (timeRemaining == 0.0f)
@@ -117,9 +123,9 @@ namespace Snakes_on_a_Game
                 currentSquare = new Rectangle(
                 rand.Next(0, this.Window.ClientBounds.Width - 25),
                 rand.Next(0, this.Window.ClientBounds.Height - 25),
-                );
+                16,16);
                 timeRemaining = TimePerSquare;
-            }
+            }*/
         }
 
         /// <summary>
@@ -138,7 +144,7 @@ namespace Snakes_on_a_Game
                    new Rectangle((int)snake[i].X, (int)snake[i].Y, 20, 20),
                    new Rectangle(0, 0, 16, 16),
                    Color.PapayaWhip);
-            }
+            }   
           
             spriteBatch.End();
 

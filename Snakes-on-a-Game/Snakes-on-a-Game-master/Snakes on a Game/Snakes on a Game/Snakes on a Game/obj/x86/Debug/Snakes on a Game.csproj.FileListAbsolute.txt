@@ -12,3 +12,10 @@ C:\Users\eahscs\Desktop\Snakes-on-a-Game\Snakes on a Game\Snakes on a Game\Snake
 C:\Users\eahscs\Desktop\Snakes-on-a-Game\Snakes on a Game\Snakes on a Game\Snakes on a Game\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
 C:\Users\eahscs\Desktop\Snakes-on-a-Game\Snakes on a Game\Snakes on a Game\Snakes on a Game\obj\x86\Debug\Snakes on a Game.exe
 C:\Users\eahscs\Desktop\Snakes-on-a-Game\Snakes on a Game\Snakes on a Game\Snakes on a Game\obj\x86\Debug\Snakes on a Game.pdb
+C:\Users\eahscs\Documents\GitHub\Snakes-on-a-game-Working\Snakes-on-a-Game\Snakes-on-a-Game-master\Snakes on a Game\Snakes on a Game\Snakes on a Game\obj\x86\Debug\Snakes on a Game.csprojResolveAssemblyReference.cache
+C:\Users\eahscs\Documents\GitHub\Snakes-on-a-game-Working\Snakes-on-a-Game\Snakes-on-a-Game-master\Snakes on a Game\Snakes on a Game\Snakes on a Game\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\eahscs\Documents\GitHub\Snakes-on-a-game-Working\Snakes-on-a-Game\Snakes-on-a-Game-master\Snakes on a Game\Snakes on a Game\Snakes on a Game\obj\x86\Debug\Snakes on a Game.exe
+C:\Users\eahscs\Documents\GitHub\Snakes-on-a-game-Working\Snakes-on-a-Game\Snakes-on-a-Game-master\Snakes on a Game\Snakes on a Game\Snakes on a Game\bin\x86\Debug\Content\SQUARE.xnb
+C:\Users\eahscs\Documents\GitHub\Snakes-on-a-game-Working\Snakes-on-a-Game\Snakes-on-a-Game-master\Snakes on a Game\Snakes on a Game\Snakes on a Game\bin\x86\Debug\Snakes on a Game.exe
+C:\Users\eahscs\Documents\GitHub\Snakes-on-a-game-Working\Snakes-on-a-Game\Snakes-on-a-Game-master\Snakes on a Game\Snakes on a Game\Snakes on a Game\bin\x86\Debug\Snakes on a Game.pdb
+C:\Users\eahscs\Documents\GitHub\Snakes-on-a-game-Working\Snakes-on-a-Game\Snakes-on-a-Game-master\Snakes on a Game\Snakes on a Game\Snakes on a Game\obj\x86\Debug\Snakes on a Game.pdb
